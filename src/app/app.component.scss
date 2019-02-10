@@ -1,0 +1,19 @@
+.container {
+  width: 450px;
+  margin: 45px auto;
+}
+
+.email-row {
+  mat-form-field {
+    width: 60%;
+  }
+  button.mat-stroked-button.mat-primary {
+    &:first-child {
+      margin-right: 16px;
+    }
+  }
+}
+
+.name-row {
+  width: 100%;
+}
